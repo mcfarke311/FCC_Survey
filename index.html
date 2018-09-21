@@ -33,12 +33,37 @@
                     <option value="rap">Rap</option>
                     <option value="hip-hop">Hip-Hop</option>
                 </select>
-                <input type="radio" name="color" value="blue">Blue
-                <input type="radio" name="color" value="red">Red
-                <input type="radio" name="color" value="yellow">Yellow
-                <input type="radio" name="color" value="orange">Orange
-                <input type="radio" name="color" value="green">Green
-                <input type="radio" name="color" value="purple">Purple
+                <fieldset>
+                    <legend>Select your favorite color:</legend>
+                    <input type="radio" name="color" value="blue" id="blue">
+                    <label for="blue">Blue</label>
+                    <input type="radio" name="color" value="red" id="red">
+                    <label for="red">Red</label>
+                    <input type="radio" name="color" value="yellow" id="yellow">
+                    <label for="yellow">Yellow</label>
+                    <input type="radio" name="color" value="orange" id="orange">
+                    <label for="orange">Orange</label>
+                    <input type="radio" name="color" value="green" id="green">
+                    <label for="green">Green</label>
+                    <input type="radio" name="color" value="purple" id="purple">
+                    <label for="purple">Purple</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Select applicable education/schooling you have completed:</legend>
+                    <input type="checkbox" name="education" id="high-school-diploma" value="high-school-diploma">
+                    <label for="high-school-diploma">High School Diploma</label>
+                    <input type="checkbox" name="education" id="ged" value="ged">
+                    <label for="ged">GED</label>
+                    <input type="checkbox" name="education" id="bachelors-degree" value="bachelors-degree">
+                    <label for="bachelors-degree">Bachelor's Degree</label>
+                    <input type="checkbox" name="education" id="masters-degree" value="masters-degree">
+                    <label for="masters-degree">Master's Degree</label>
+                    <input type="checkbox" name="education" id="doctorate-degree" value="doctorate-degree">
+                    <label for="doctorate-degree">Doctorate</label>
+                </fieldset>
+                <label for="something-interesting">Tell me something interesting about you:</label>
+                <textarea id="something-interesting" name="interesting-text"></textarea>
+                <input type="submit" id="submit" name="submit" value="submit form">
             </form>
         </section>
     </div>
