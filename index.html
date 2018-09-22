@@ -15,16 +15,17 @@
     <h1 id="title">Personal Survey</h1>
     <div id="content">
         <section>
-            <p>Tell us a little about yourself!</p>
+            <p id="description">Tell us a little about yourself!</p>
             <form id="survey-form">
                 <label for="name" id="name-label">Full Name:</label>
-                <input type="text" id="name" placeholder="John Smith">
+                <input required type="text" id="name" placeholder="First [Last]" pattern="([A-z]+ {0,1}){1,2}">
                 <label for="email" id="email-label">Email Address:</label>
-                <input type="email" id="email" placeholder="smith.john@dummymail.com">
+                <input required type="email" id="email" placeholder="username@mailhost.com">
                 <label for="number" id="number-label">Phone Number:</label>
-                <input type="number" id="number" min="1000000000" max="9999999999" placeholder="8885550123">
+                <input type="number" id="number" min="1000000000" max="9999999999" placeholder="8885550123" patter="[0-9]{10}">
                 <label for="dropdown">Favorite Music Genre:</label>
-                <select id="dropdown" id="music">
+                <select id="dropdown">
+                    <option value="none">None</option>
                     <option value="rock">Rock</option>
                     <option value="r&b">R&B</option>
                     <option value="blues">Blues</option>
@@ -62,7 +63,7 @@
                     <label for="doctorate-degree">Doctorate</label>
                 </fieldset>
                 <label for="something-interesting">Tell me something interesting about you:</label>
-                <textarea id="something-interesting" name="interesting-text"></textarea>
+                <textarea id="something-interesting" name="interesting-text" placeholder="I am an Eagle Scout!"></textarea>
                 <input type="submit" id="submit" name="submit" value="submit form">
             </form>
         </section>
