@@ -1,0 +1,22 @@
+body {
+    --alice-blue: #f4faff;
+    --platinum: #dee7e7;
+    --wild-blue-yonder: #b7adcf;
+    --stormcloud: #4f646f;
+    --davys-grey: #535657;
+    background-color: var(--alice-blue);
+}
+
+#title {
+    text-align: center;
+    color: var(--davys-grey)
+}
+
+#content {
+    text-align: center;
+    width: 90vw;
+    margin: auto;
+    border-radius: 1em; 
+    padding: 1%;
+    background-color: var(--platinum);
+}
