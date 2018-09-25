@@ -4,6 +4,8 @@ body {
     --wild-blue-yonder: #b7adcf;
     --stormcloud: #4f646f;
     --davys-grey: #535657;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--alice-blue);
 }
 
@@ -14,9 +16,56 @@ body {
 
 #content {
     text-align: center;
-    width: 90vw;
+    width: 90%;
     margin: auto;
     border-radius: 1em; 
     padding: 1%;
     background-color: var(--platinum);
+}
+
+#survey-form {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+input {
+    text-align: center;
+}
+
+#colors {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    
+}
+
+#colors input {
+    display: none;
+}
+
+label[for="blue"] {
+    background-color: blue;
+}
+
+label[for="red"] {
+    background-color: red;
+    grid-column: 1/2;
+}
+
+label[for="yellow"] {
+    background-color: yellow;
+}
+
+label[for="green"] {
+    background-color: green;
+}
+
+label[for="orange"] {
+    background-color: orange;
+}
+
+label[for="purple"] {
+    background-color: purple;
 }
