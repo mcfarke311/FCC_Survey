@@ -56,9 +56,19 @@ label[for="blue"] {
     color: black;
 }
 
+.grid-wrapper input[type="radio"]:checked+label[for="blue"] {
+    background-color: blue;
+    color: blue;
+}
+
 label[for="red"] {
     background-color: rgba(255,0,0,0.3);
     color: black;
+}
+
+.grid-wrapper input[type="radio"]:checked+label[for="red"] {
+    background-color: red;
+    color: red;
 }
 
 label[for="yellow"] {
@@ -66,9 +76,19 @@ label[for="yellow"] {
     color: black;
 }
 
+.grid-wrapper input[type="radio"]:checked+label[for="yellow"] {
+    background-color: yellow;
+    color: yellow;
+}
+
 label[for="green"] {
     background-color: rgba(0,255,0,0.3);
     color: black;
+}
+
+.grid-wrapper input[type="radio"]:checked+label[for="green"] {
+    background-color: green;
+    color: green;
 }
 
 label[for="orange"] {
@@ -76,9 +96,19 @@ label[for="orange"] {
     color: black;
 }
 
+.grid-wrapper input[type="radio"]:checked+label[for="orange"] {
+    background-color: orange;
+    color: orange;
+}
+
 label[for="purple"] {
     background-color: rgba(255,0,255,0.3);
     color: black;
+}
+
+.grid-wrapper input[type="radio"]:checked+label[for="purple"] {
+    background-color: purple;
+    color: purple;
 }
 
 #education {
