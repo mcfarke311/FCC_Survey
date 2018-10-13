@@ -35,14 +35,22 @@ input {
     text-align: center;
 }
 
-#colors {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    
-}
-
 #colors input {
     display: none;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+}
+
+.grid-wrapper label {
+    margin: 2% 0;
+    padding: 50% 0;
+    border-radius: 50%;
+    font-size: 7vw;
+    line-height: 0;
 }
 
 label[for="blue"] {
@@ -51,7 +59,6 @@ label[for="blue"] {
 
 label[for="red"] {
     background-color: red;
-    grid-column: 1/2;
 }
 
 label[for="yellow"] {
@@ -68,4 +75,14 @@ label[for="orange"] {
 
 label[for="purple"] {
     background-color: purple;
+}
+
+#education {
+    justify-content: center;
+}
+
+#education div {
+    text-align: left;
+    padding: 0 10%;
+    width: 80%;
 }
