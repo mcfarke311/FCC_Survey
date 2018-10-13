@@ -4,8 +4,6 @@ body {
     --wild-blue-yonder: #b7adcf;
     --stormcloud: #4f646f;
     --davys-grey: #535657;
-    width: 100vw;
-    height: 100vh;
     background-color: var(--alice-blue);
 }
 
@@ -49,32 +47,38 @@ input {
     margin: 2% 0;
     padding: 50% 0;
     border-radius: 50%;
-    font-size: 7vw;
+    font-size: 6vw;
     line-height: 0;
 }
 
 label[for="blue"] {
-    background-color: blue;
+    background-color: rgba(0,0,255,0.3);
+    color: black;
 }
 
 label[for="red"] {
-    background-color: red;
+    background-color: rgba(255,0,0,0.3);
+    color: black;
 }
 
 label[for="yellow"] {
-    background-color: yellow;
+    background-color: rgba(255,255,0,0.3);
+    color: black;
 }
 
 label[for="green"] {
-    background-color: green;
+    background-color: rgba(0,255,0,0.3);
+    color: black;
 }
 
 label[for="orange"] {
-    background-color: orange;
+    background-color: rgba(255,165,0,0.3);
+    color: black;
 }
 
 label[for="purple"] {
-    background-color: purple;
+    background-color: rgba(255,0,255,0.3);
+    color: black;
 }
 
 #education {
